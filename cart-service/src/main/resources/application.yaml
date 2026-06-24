@@ -23,3 +23,9 @@ spring:
       transport:
         dashboard: localhost:8090
       http-method-specify: true
+  rabbitmq:
+    host: 192.168.31.23
+    port: 5672
+    virtual-host: /hmall
+    username: hmall
+    password: 123321
